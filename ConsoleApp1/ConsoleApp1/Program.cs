@@ -12,8 +12,6 @@ namespace ConsoleApp1
 
             int numero = Convert.ToInt32( Console.ReadLine());
 
-            int contagem = numero;
-
             Console.WriteLine("Pressione uma tecla para proseguirmos");
 
             Console.ReadKey();
@@ -28,20 +26,10 @@ namespace ConsoleApp1
 
             Console.WriteLine("FOGO!");
 
-            Console.WriteLine(numero);
-
-            Console.Beep();
-
-            Thread.Sleep(1000);
-
-            for (int i = 0; i < numero; i++)
+            for (int i = numero; i > 0; i--)
             {
 
-                int temp = contagem - 1;
-
-                contagem = temp;
-                
-                Console.WriteLine(temp);
+                Console.WriteLine(i);
 
                 Console.Beep();
 
