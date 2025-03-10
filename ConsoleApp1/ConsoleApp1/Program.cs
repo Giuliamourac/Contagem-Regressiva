@@ -20,11 +20,11 @@ namespace ConsoleApp1
 
             Console.WriteLine("Preparar...");
 
-            Thread.Sleep(1000);
+            Console.ReadKey();
 
             Console.WriteLine("Apontar...");
 
-            Thread.Sleep(1000);
+            Console.ReadKey();
 
             Console.WriteLine("FOGO!");
 
